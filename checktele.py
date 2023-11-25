@@ -185,7 +185,7 @@ async def _(event):
         trys = 0
         await event.edit(f"Okay, I'll check the type `{choice}` From the ministers on `{ch}` , By number `{msg[0]}` Of attempts !")
 
-        @sython.on(events.NewMessage(outgoing=True, pattern=r"GG\."))
+        @sython.on(events.NewMessage(outgoing=True, pattern=r"sx\."))
         async def _(event):
             if ispay2[0] == "yes":
                 if "on" in isclaim:
