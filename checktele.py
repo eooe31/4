@@ -212,7 +212,7 @@ async def _(event):
                 try:
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
-                    await event.client.send_message(event.chat_id,"https://t.me/R_M_T/10",caption=f'''
+                    await event.client.send_message(event.chat_id, f'''
 The catch was done
 ⌯ Attempt counter ⤷ : {trys}
 ⤷ ID : @{username}
