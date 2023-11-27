@@ -94,7 +94,7 @@ async def _(event):
 
     sandy = await event.edit(
         event,
-        "**❃ جارِ اعادة تشغيل السورس\nارسل** `.فحص` **او** `.الاوامر` **للتحقق مما إذ كان البوت شغال ، يستغرق الأمر في الواقع 1-2 دقيقة لإعادة التشغيل**",
+        "**❃ Restarting the resource\nSend** `.check` **or** `.command` **To check if the bot is running, it actually takes 1-2 minutes to restart**",
     )
     try:
         ulist = get_collectionlist_items()

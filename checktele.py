@@ -45,6 +45,20 @@ def gen_user(choice):
     if choice == "1":
         c = d = random.choices(e)
         d = random.choices(e)
+        f = [c[0], c[0], c[0], c[0], d[0]]
+        random.shuffle(f)
+        username = ''.join(f)
+        if username in banned[0]:
+            c = d = random.choices(e)
+            d = random.choices(e)
+            f = [c[0], c[0], c[0], c[0], d[0]]
+            random.shuffle(f)
+            username = ''.join(f)
+        else:
+            pass
+    if choice == "2":
+        c = d = random.choices(e)
+        d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = ''.join(f)
@@ -56,35 +70,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "2":
-        c = random.choices(a)
-        d = random.choices(a)
-        s = random.choices(a)
-        f = [c[0], d[0], s[0], s[0], s[0]]    
-        username = ''.join(f)
-        if username in banned[0]:
-            c = random.choices(a)
-            d = random.choices(a)
-            s = random.choices(a)
-            f = [s[0], s[0], s[0], c[0], d[0]]    
-            username = ''.join(f)
-        else:
-            pass
     if choice == "3":
-        c = random.choices(a)
-        d = random.choices(a)
-        s = random.choices(a)
-        f = [c[0], s[0], s[0], s[0], d[0]]    
-        username = ''.join(f)
-        if username in banned[0]:
-            c = random.choices(a)
-            d = random.choices(a)
-            s = random.choices(b)
-            f = [c[0], s[0], s[0], s[0], d[0]]    
-            username = ''.join(f)
-        else:
-            pass
-    if choice == "4":
         c = d = random.choices(e)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], c[0]]
@@ -98,21 +84,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "5":
-        c = d = random.choices(e)
-        d = random.choices(e)
-        f = [c[0], c[0], c[0], c[0], d[0]]
-        random.shuffle(f)
-        username = ''.join(f)
-        if username in banned[0]:
-            c = d = random.choices(e)
-            d = random.choices(e)
-            f = [c[0], c[0], c[0], c[0], d[0]]
-            random.shuffle(f)
-            username = ''.join(f)
-        else:
-            pass
-    if choice == "6":
+    if choice == "4":
         c = d = random.choices(e)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], d[0]]
@@ -126,7 +98,21 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "7":
+    if choice == "5":
+        c = d = random.choices(a)
+        d = random.choices(b)
+        f = [c[0], d[0], c[0], c[0], d[0], d[0]]
+        random.shuffle(f)
+        username = ''.join(f)
+        if username in banned[0]:
+            c = d = random.choices(a)
+            d = random.choices(b)
+            f = [c[0], d[0], c[0], c[0], d[0], d[0]]
+            random.shuffle(f)
+            username = ''.join(f)
+        else:
+            pass
+    if choice == "6":
         c = d = random.choices(e)
         d = random.choices(e)
         f = [c[0], d[0], "_", c[0], c[0]]
@@ -140,17 +126,45 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "8":
-        c = d = random.choices(e)
-        d = random.choices(e)
-        f = [c[0], d[0], "_", d[0], c[0]]
-        random.shuffle(f)
+    if choice == "7":
+        c = random.choices(a)
+        d = random.choices(a)
+        s = random.choices(a)
+        f = [c[0], s[0], s[0], s[0], d[0]]    
         username = ''.join(f)
         if username in banned[0]:
-            c = d = random.choices(e)
-            d = random.choices(e)
-            f = [c[0], d[0], "_", d[0], c[0]]
-            random.shuffle(f)
+            c = random.choices(a)
+            d = random.choices(a)
+            s = random.choices(a)
+            f = [c[0], s[0], s[0], s[0], d[0]]    
+            username = ''.join(f)
+        else:
+            pass
+    if choice == "8":
+        c = random.choices(a)
+        d = random.choices(a)
+        s = random.choices(a)
+        f = [c[0], d[0], s[0], s[0], s[0]]    
+        username = ''.join(f)
+        if username in banned[0]:
+            c = random.choices(a)
+            d = random.choices(a)
+            s = random.choices(b)
+            f = [c[0], d[0], s[0], s[0], s[0]]    
+            username = ''.join(f)
+        else:
+            pass
+    if choice == "9":
+        c = random.choices(a)
+        d = random.choices(a)
+        s = random.choices(a)
+        f = [c[0], c[0], c[0], s[0], d[0]]    
+        username = ''.join(f)
+        if username in banned[0]:
+            c = random.choices(a)
+            d = random.choices(a)
+            s = random.choices(b)
+            f = [c[0], c[0], c[0], d[0], s[0]]    
             username = ''.join(f)
         else:
             pass

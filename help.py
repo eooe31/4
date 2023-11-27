@@ -126,20 +126,22 @@ tele_checker2 = '''
 ━━━━━━━━━━━━━━━━━━━━━━━
 Types :
 
-1 :  xcxcx - s5s5s
+1 :  sxsss - s5sss
 
-2 : sxccc - xxxcx
+2 : xcxcx - x5x5x 
 
-3 : s888c - sxxxc
+3 : sxssss - s5ssss
 
-4 : sxssss - s7ssss
+4 : mmssmm - s5555s 
 
-5 : sxxxx - x5xxx
+5 : sss777 - ss777s
 
-6 : mmssmm - yyy99y
+6 : sss_x - x_666
 
-7 : sxs_s - s5_55
+7 : scccx - iooon
 
-8 : ss_xx _ ss_55
+8 : sxccc - vsxxx 
+
+9 : sssxc - eeedg
 ━━━━━━━━━━━━━━━━━━━━━━━
 '''
