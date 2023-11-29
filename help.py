@@ -134,7 +134,7 @@ Types :
 
 4 : mmssmm - s5555s 
 
-5 : sss777 - ss777s
+5 : sss777 - sssxxx
 
 6 : sss_x - x_666
 
